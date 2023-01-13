@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>ncdm website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel ="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css"/>
+</head>
+<style>
+html{
+height: -webkit-fill-available;
+}
+body{
+display: flex;
+flex=direction: column;
+max-width: 1440px;
+margin: 0 auto;
+height: 100vh;
+height: -webkit-fill-available;
+}
+img{
+width:700px;
+height:165px;
+bgcolor: "blue";
+}
+#img1{
+width:350px;
+height:400px;
+}
+
+#img2{
+width:350px;
+height:400px;
+}
+
+#fb{
+width: 20px; 
+height: 25px;
+border: 10px;
+}
+
+#insta{
+color: white;
+width: 20px; 
+height: 25px;
+border: 10px;
+}
+
+
+</style>
+
+<header style="background-color: black">	
+<center><img src="images/logo.png"></center>
+</header>
+
+<h3 style="background-color: #ACE1AF; color: white; FONT-SIZE: 10px;">
+<hr>
+<center> | &nbsp&nbsp&nbsp&nbsp<a href="index1.html"><strong>HOME<strong></a>&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp<a href="about.html">ABOUT US</a>&nbsp&nbsp&nbsp&nbsp |&nbsp&nbsp&nbsp&nbsp<a href="services.html"><strong>SERVICES<strong></a>&nbsp&nbsp&nbsp&nbsp |&nbsp&nbsp&nbsp&nbsp<a href="comments.html">COMMENTS</a>&nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp&nbsp&nbsp<a href="contact.html">CONTACT</a>&nbsp&nbsp&nbsp&nbsp | </center>
+<hr>
+</h3>
+
+<body background="star.jpeg">
+
+<marquee><h1 style="color:red; text-shadow: 2px 2px blue;">we make your party venue extraordinary</h1></marquee><br>
+
+<center><img src="images/balloon.jpg" id="img1"width="100px" height="500px"> 
+<img src="images/3.jpg" id="img2"width="200" height="500"> <br></center>
+<center><a href="gallery.html">IMAGE GALLERY</a></center>
+
+
+<center><a href="video.html">VIDEO GALLERY</a> </center>
+	
+
+&nbsp <br>
+<center><p style="color: #f5f5f5;">make every occasion memorable</p></center>
+&nbsp <br>
+&nbsp <br>
+
+
+<p style="color:white;"><i>follow us:</i></p>
+<img src="images/fb.jpg" id="fb">
+<a href="https://web.facebook.com/noelnathaniel.gomez.5" target="_blank">facebook</a>&nbsp&nbsp&nbsp&nbsp
+<img src="images/insta.jpg" id="insta">
+<a href="https://www.instagram.com/laladekorit797/" target="_blank">instagram</a>
+
+</body>
+<footer style="background-color: #82EEFD; font-size: 10px;">
+
+<center>Copyright 2023: All Rights Reserved  |  NCMD.com | designed by Mags Business Solutions</center>
+</footer>
+
+</html>
