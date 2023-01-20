@@ -4,14 +4,19 @@
 <meta charset="utf-8">
 <title>ncdm website</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel ="stylesheet" type="text/css" href="http://www.w3schools.com/lib/w3.css"/>
+<link rel ="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
 </head>
 <style>
-html{
-height: -webkit-fill-available;
+html> body{
+height: 98%;
 }
 body{
-height: -webkit-fill-available;
+padding: 1%;
+margin: 0;
+line-height: 1.4;
+}
+body {
+    display: block;
 }
 img{
 width:700px;
@@ -28,26 +33,15 @@ width:350px;
 height:400px;
 }
 
-#fb{
-width: 20px; 
-height: 25px;
-border: 10px;
-border-radius: 2px;
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%;
 }
-
-#insta{
-color: #bb6969;
-width: 20px; 
-height: 25px;
-border: 10px;
-border-radius: 2px;
-}
-
 
 </style>
 
 <header style="background-color: black">	
-<center><img src="logo.png"></center>
+<center><img src="logo.png" style="max-width:100%;height:165px;"></center>
 </header>
 
 <h3 style="background-color: #ACE1AF; color: white; FONT-SIZE: 10px;">
@@ -116,11 +110,14 @@ Your browser does not support mp4 videos, change browser!
 <br><br><br><br>
 <br><br><br><br>
 <p style="color:white;"><i>follow us:</i></p>
-<img src="fb.jpg" id="fb">
+<img src="fb.jpg" style="max-width:20px;height:25px;border: 10px;border-radius: 2px;">
   
 <a href="https://web.facebook.com/noelnathaniel.gomez.5" target="_blank">facebook</a>&nbsp&nbsp&nbsp&nbsp
-<img src="insta.jpg" id="insta">
+<img src="insta.jpg" style="max-width:20px;height:25px;border: 10px;border-radius: 2px;">
 <a href="https://www.instagram.com/laladekorit797/" target="_blank">instagram</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>                                                                   
 </body>
 <br><br>
 <footer style="background-color: #82EEFD; font-size: 10px;">
