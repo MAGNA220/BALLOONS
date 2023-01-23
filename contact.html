@@ -35,7 +35,7 @@ input[type=text], select, textarea {
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 /* Style the submit button with a specific background color etc */
-input[type=send] {
+input[type=submit] {
   width: 70%;
   background-color: #04AA6D;
   color: white;
@@ -46,7 +46,7 @@ input[type=send] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=send]:hover {
+input[type=submit]:hover {
   background-color: #45a049;
 }
 
@@ -55,6 +55,9 @@ input[type=send]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+.form-group{
+width:70%;
 }
 #img2{
 width:350px;
@@ -106,7 +109,7 @@ We are located in Poblacion Guihulngan, Negros Oriental but you can reach us thr
     <div class="form-group">
       <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
     </div>
-   <button type="send" class="btn btn-lg btn-dark btn-block">Send</button>
+   <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
   </form>
 
 
